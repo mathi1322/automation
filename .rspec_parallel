@@ -1,0 +1,7 @@
+--color
+--require rspec/instafail
+--require spec_helper
+
+--format RSpec::Instafail
+--format Reports::Json
+--format Reports::Html

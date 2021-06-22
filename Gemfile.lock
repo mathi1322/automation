@@ -1,0 +1,122 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.2)
+    builder (3.2.4)
+    byebug (11.1.3)
+    capybara (3.35.3)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    capybara-screenshot (1.0.25)
+      capybara (>= 1.0, < 4)
+      launchy
+    capybara-webkit (1.15.1)
+      capybara (>= 2.3, < 4.0)
+      json
+    childprocess (3.0.0)
+    coderay (1.1.3)
+    diff-lcs (1.4.4)
+    headless (2.3.1)
+    json (2.5.1)
+    launchy (2.5.0)
+      addressable (~> 2.7)
+    mini_mime (1.1.0)
+    nokogiri (1.11.3-x86_64-linux)
+      racc (~> 1.4)
+    parallel (1.20.1)
+    parallel_tests (3.7.0)
+      parallel
+    parser (3.0.1.1)
+      ast (~> 2.4.1)
+    public_suffix (4.0.6)
+    racc (1.5.2)
+    rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rainbow (3.0.0)
+    regexp_parser (2.1.1)
+    rexml (3.2.5)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-instafail (1.0.0)
+      rspec
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-retry (0.6.2)
+      rspec-core (> 3.3)
+    rspec-support (3.10.2)
+    rubocop (1.14.0)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.5.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.5.0)
+      parser (>= 3.0.1.1)
+    ruby-ole (1.2.12.2)
+    ruby-progressbar (1.11.0)
+    rubyzip (2.3.0)
+    rufo (0.12.0)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    simple_xlsx_reader (1.0.4)
+      nokogiri
+      rubyzip
+    site_prism (3.0.2)
+      addressable (~> 2.5)
+      capybara (>= 2.18, < 4.0)
+    spreadsheet (1.2.8)
+      ruby-ole
+    thor (1.1.0)
+    unicode-display_width (2.0.0)
+    webdrivers (4.6.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (>= 3.0, < 4.0)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  builder
+  byebug
+  capybara
+  capybara-screenshot
+  capybara-webkit
+  coderay
+  headless
+  parallel_tests
+  rspec
+  rspec-instafail
+  rspec-retry
+  rubocop
+  rufo
+  simple_xlsx_reader
+  site_prism (= 3.0.2)
+  spreadsheet
+  thor
+  webdrivers
+
+BUNDLED WITH
+   2.2.17
