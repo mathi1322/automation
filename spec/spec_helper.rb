@@ -71,11 +71,11 @@ RSpec.configure do |config|
   config.display_try_failure_messages = true
 
   # run retry only on features
-  config.around :each do |ex|
-    meta = ex.metadata
-    # Capybara.page.driver.browser.manage.window.resize_to(1600, 1200) rescue nil
-    CapybaraRetry.run_with_retry(ex, $ERROR_RETRIES)
-  end
+  # config.around :each do |ex|
+  #   meta = ex.metadata
+  #   # Capybara.page.driver.browser.manage.window.resize_to(1600, 1200) rescue nil
+  #   CapybaraRetry.run_with_retry(ex, $ERROR_RETRIES)
+  # end
 
   config.before do
     if self.class.include?(Capybara::DSL)
